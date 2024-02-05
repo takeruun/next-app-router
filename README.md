@@ -34,3 +34,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## メモ
+
+app/ 配下が基本的なルーティングを示す
+
+- page.tsx だと、画面を表示する
+app/folder/page.tsx → /folder で表示される
+https://nextjs.org/docs/app/building-your-application/routing/defining-routes
+
+- route.ts だと、API処理になる
+app/api-hello/route.ts → /api-hello で実行される
+https://nextjs.org/docs/app/building-your-application/routing/route-handlers
+
